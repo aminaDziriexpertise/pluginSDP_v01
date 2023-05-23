@@ -139,12 +139,12 @@ Justification : dialog
                   
               
              :row {
-                        ok_button;fixed_width=true;is_cancel=true;alignment = centered;
-                        cancel_button;fixed_width=true;is_cancel=true;alignment = centered;
-                        : button {label = "reset";key = "reset";fixed_width=true;is_cancel=true;alignment = centered;} 
-                        : button {label = "help";key = "help";fixed_width=true;is_cancel=true;alignment = centered;} 
+                         ok_cancel;alignment = centered;
+                        //: button {label = "reset";key = "reset";fixed_width=true;} 
+                        : button {label = "help";key = "help";fixed_width=true;} 
                         
                 }
+               
                 }
               
 
